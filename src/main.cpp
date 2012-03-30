@@ -12,8 +12,11 @@ char sec[secNUM + 1] = { 0 };
 int main()
 {
 	cout << sizeof(A) << endl;
+#ifndef WIN32
     cout << my_max( 12345, -4) << endl;
-    //cout << max( 12345, -4) << endl;
+#else
+    cout << max( 12345, -4) << endl;
+#endif
 	print(1024);
 
 

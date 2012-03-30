@@ -20,10 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\PrintLong.h">
+    <ClInclude Include="..\..\src\PasswordGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\PasswordGenerator.h">
+    <ClInclude Include="..\..\src\PrintLong.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
